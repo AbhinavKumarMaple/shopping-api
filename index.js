@@ -9,7 +9,7 @@ dotenv.config();
 
 //mongodb connection url
 mongoose.connect(process.env.MONGO_URL
-).then(()=> console.log(process.env.PORT)).catch((err)=>
+).then(()=> console.log("DB connected")).catch((err)=>
     console.log(err)
 );
 
