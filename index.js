@@ -15,7 +15,7 @@ mongoose.connect(process.env.MONGO_URL
 
 // access http requests
 
-app.use("/api/user", userRoute);
+app.use("/api/users", userRoute);
 
 
 
